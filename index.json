@@ -4,7 +4,7 @@
  "versions": [
   {
    "version": "0.5.5",
-   "from": null,
+   "from": "0.5.4",
    "manifest": "v0.5.5/echoscene-manifest.json",
    "pack": "v0.5.5/EchoScene-Update.zip",
    "setup_size": 639985718
