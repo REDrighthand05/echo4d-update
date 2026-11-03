@@ -1,0 +1,13 @@
+{
+ "product": "EchoCollector",
+ "latest": "0.7",
+ "versions": [
+  {
+   "version": "0.7",
+   "code": 7,
+   "apk": "v0.7/EchoCollector.apk",
+   "sha256": "6a1c7dd22ebabf27e76224de42e947f64f46c5785141805416e77c72d45082f0",
+   "notes": "自带更新：中转站检查、下载校验、点一下装新版"
+  }
+ ]
+}
