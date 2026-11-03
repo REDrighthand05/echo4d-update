@@ -1,6 +1,6 @@
 {
  "product": "EchoScene",
- "latest": "0.6.4",
+ "latest": "0.6.5",
  "versions": [
   {
    "version": "0.5.5",
@@ -71,6 +71,13 @@
    "manifest": "v0.6.4/echoscene-manifest.json",
    "pack": "v0.6.4/EchoScene-Update.zip",
    "setup_size": 655693112
+  },
+  {
+   "version": "0.6.5",
+   "from": "0.6.4",
+   "manifest": "v0.6.5/echoscene-manifest.json",
+   "pack": "v0.6.5/EchoScene-Update.zip",
+   "setup_size": 655701493
   }
  ]
 }
