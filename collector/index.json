@@ -1,6 +1,6 @@
 {
  "product": "EchoCollector",
- "latest": "0.8",
+ "latest": "0.9",
  "versions": [
   {
    "version": "0.7",
@@ -15,6 +15,13 @@
    "apk": "v0.8/EchoCollector.apk",
    "sha256": "f8c7e2a261a3bcf8c50b3daaf9c911845c1de3d9d2f42dd11d11b9407d164eda",
    "notes": "砍掉同网直传；预览转正、提速"
+  },
+  {
+   "version": "0.9",
+   "code": 9,
+   "apk": "v0.9/EchoCollector.apk",
+   "sha256": "793e238c62fb4a96b7c0e5b092aad275da919223c99c02a24b267c1dc82658f7",
+   "notes": "取帧模式换 BLOCKING 再试满帧；新增帧率看门狗：6 秒内帧率不到 8 自动切普通通道"
   }
  ]
 }
