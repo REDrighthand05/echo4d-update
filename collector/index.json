@@ -1,6 +1,6 @@
 {
  "product": "EchoCollector",
- "latest": "0.9",
+ "latest": "0.11",
  "versions": [
   {
    "version": "0.7",
@@ -22,6 +22,13 @@
    "apk": "v0.9/EchoCollector.apk",
    "sha256": "793e238c62fb4a96b7c0e5b092aad275da919223c99c02a24b267c1dc82658f7",
    "notes": "取帧模式换 BLOCKING 再试满帧；新增帧率看门狗：6 秒内帧率不到 8 自动切普通通道"
+  },
+  {
+   "version": "0.11",
+   "code": 11,
+   "apk": "v0.11/EchoCollector.apk",
+   "sha256": "5963e172c9eabf406bc9cb7a5cf76e024c5d00f306a116e1a573702895fe89eb",
+   "notes": "传感器全开：环境光+色彩光、同步录音、GPS 落位；采集包带时钟锚点与漂移"
   }
  ]
 }
