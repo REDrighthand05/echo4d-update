@@ -1,0 +1,39 @@
+{
+ "from_version": "0.6.45",
+ "to_version": "0.6.46",
+ "to_change": [
+  {
+   "path": "app/echo_scene/replay.py",
+   "sha256": "45fc80dff6d9bbf222dd797f43f9c8393fd71db56001c10510f9423ecf1abd62",
+   "size": 32705
+  },
+  {
+   "path": "app/installer/version.inc",
+   "sha256": "cca81836145ebe83859307b57d89ccfb4c53a020a3d95ef3396425903b02e916",
+   "size": 381
+  }
+ ],
+ "to_delete": [],
+ "unchanged": 9799,
+ "total_bytes": 33086,
+ "steps": [
+  {
+   "op": "replace",
+   "path": "app/echo_scene/replay.py"
+  },
+  {
+   "op": "replace",
+   "path": "app/installer/version.inc"
+  }
+ ],
+ "files": {
+  "app/echo_scene/replay.py": {
+   "sha256": "45fc80dff6d9bbf222dd797f43f9c8393fd71db56001c10510f9423ecf1abd62",
+   "size": 32705
+  },
+  "app/installer/version.inc": {
+   "sha256": "cca81836145ebe83859307b57d89ccfb4c53a020a3d95ef3396425903b02e916",
+   "size": 381
+  }
+ }
+}

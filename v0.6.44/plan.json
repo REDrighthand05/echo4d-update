@@ -1,0 +1,39 @@
+{
+ "from_version": "0.6.43",
+ "to_version": "0.6.44",
+ "to_change": [
+  {
+   "path": "app/web_app.py",
+   "sha256": "412445838d1e6a42bbe8d875decd39c5b8555df286a94e79efefe6df8651b252",
+   "size": 129215
+  },
+  {
+   "path": "app/installer/version.inc",
+   "sha256": "f4511cd51efef9bad00c7afc8634f127086c6d7625e827c9cdb8b6dd25e7da22",
+   "size": 381
+  }
+ ],
+ "to_delete": [],
+ "unchanged": 9799,
+ "total_bytes": 129596,
+ "steps": [
+  {
+   "op": "replace",
+   "path": "app/web_app.py"
+  },
+  {
+   "op": "replace",
+   "path": "app/installer/version.inc"
+  }
+ ],
+ "files": {
+  "app/web_app.py": {
+   "sha256": "412445838d1e6a42bbe8d875decd39c5b8555df286a94e79efefe6df8651b252",
+   "size": 129215
+  },
+  "app/installer/version.inc": {
+   "sha256": "f4511cd51efef9bad00c7afc8634f127086c6d7625e827c9cdb8b6dd25e7da22",
+   "size": 381
+  }
+ }
+}

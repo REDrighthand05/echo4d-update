@@ -1,6 +1,6 @@
 {
  "product": "EchoScene",
- "latest": "0.6.42",
+ "latest": "0.6.46",
  "versions": [
   {
    "version": "0.5.5",
@@ -308,6 +308,34 @@
    "from": "0.6.41",
    "manifest": "v0.6.42/echoscene-manifest.json",
    "pack": "v0.6.42/EchoScene-Update.zip",
+   "setup_size": 657723313
+  },
+  {
+   "version": "0.6.43",
+   "from": "0.6.42",
+   "manifest": "v0.6.43/echoscene-manifest.json",
+   "pack": "v0.6.43/EchoScene-Update.zip",
+   "setup_size": 657723313
+  },
+  {
+   "version": "0.6.44",
+   "from": "0.6.43",
+   "manifest": "v0.6.44/echoscene-manifest.json",
+   "pack": "v0.6.44/EchoScene-Update.zip",
+   "setup_size": 657723313
+  },
+  {
+   "version": "0.6.45",
+   "from": "0.6.44",
+   "manifest": "v0.6.45/echoscene-manifest.json",
+   "pack": "v0.6.45/EchoScene-Update.zip",
+   "setup_size": 657723313
+  },
+  {
+   "version": "0.6.46",
+   "from": "0.6.45",
+   "manifest": "v0.6.46/echoscene-manifest.json",
+   "pack": "v0.6.46/EchoScene-Update.zip",
    "setup_size": 657723313
   }
  ]
