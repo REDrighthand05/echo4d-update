@@ -70,3 +70,7 @@ untouched.
   of 0.6.56 when it is done — its base file is unchanged in the
   0.6.56 manifest).
 - No desktop install, no relay push, no echo-sync push, no publish.
+
+## 桌面应用结果
+
+2026-11-09 04:2x 中转站发布（commit f01fd03b），桌面扳手应用成功，版本升到 0.6.56；app/viewer.html 已就位（16,342 字节）。

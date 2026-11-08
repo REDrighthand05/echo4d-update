@@ -10,3 +10,7 @@
 - 验过：`tests/test_v57.py` 47/47（基底复现两处毛病 + 新版延后/合并/吞消息/兜底/失败路径 + 热更新模拟应用/中途回滚/中断回滚）；`verify_pack.py` 50/50。包 527,778 B，sha256 `1d9b88ec…e5a84235574c20be3a3`。
 - 没动：fuse.py、pipeline.py、voxels.py（冻结）、depth_video.py（冻结）、voxel_export.py、updater/hotupdate、web_ui。前端未动。
 - 待用户拍板：v0.6.48–v0.6.57 发布、最大化验证、采集器 v2.1.2 重测、走路视频。仍等 rebase：v0.6.48 / v0.6.49 / v0.6.50（0.6.48 的 web_app 部分下轮要搬到本包的 web_app 上，与本包 WM_SIZE 分支同一处，注意合并）。
+
+## 桌面应用结果
+
+2026-11-09 04:2x 中转站发布（commit 2918ec31），桌面扳手应用成功，版本升到 0.6.57。
