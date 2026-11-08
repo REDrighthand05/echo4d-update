@@ -1,0 +1,140 @@
+{
+ "from_version": "0.6.47",
+ "to_version": "0.6.54",
+ "to_change": [
+  {
+   "path": "app/web_app.py",
+   "sha256": "44968538679862983ee47d7dfb09a1d0d2d43733435e8eafedcf3015ce2593f2",
+   "size": 134955
+  },
+  {
+   "path": "app/app.py",
+   "sha256": "3479b6bd60eb21d78121ad3a8c6a444e78b605ebc59cdf5ecfd66182bcc1d8b6",
+   "size": 75180
+  },
+  {
+   "path": "app/echo_app/settings.py",
+   "sha256": "5e2618c2c220a33036e43f66bcaf251b724e40ba0d8b963f808ecebe526c9615",
+   "size": 9287
+  },
+  {
+   "path": "app/echo_app/autostart.py",
+   "sha256": "90a704a4b5e0b4f88256ee1cf7a62a739f1dd56c0af1a4bb7ddf2a0f9af26009",
+   "size": 4163
+  },
+  {
+   "path": "app/echo_app/appctl.py",
+   "sha256": "9b6a3f56439f3c2cba77e54a8dbb8d94d4b5059624bc929cd02e084b00b37349",
+   "size": 11156
+  },
+  {
+   "path": "app/web_ui/index.html",
+   "sha256": "bbc4980b6afa5aab956908f69a937366e4217038f8128bf7f7e3a61271d0d5b3",
+   "size": 23876
+  },
+  {
+   "path": "app/web_ui/app.js",
+   "sha256": "367b68e41905dede7e87b6bcf49f074cb121ee60506ff73c439909fa2becbb27",
+   "size": 78136
+  },
+  {
+   "path": "app/web_ui/style.css",
+   "sha256": "22d3ed73fbd7a2b868662d785b00f48ae09de154c4afa0ddd8a3a990af0fdf30",
+   "size": 45231
+  },
+  {
+   "path": "app/installer/version.inc",
+   "sha256": "547ae935e66e580ae64505ded8954c286943a0b3106de3342254bd35c4aaaa22",
+   "size": 381
+  }
+ ],
+ "to_delete": [
+  {
+   "path": "app/echo_app/tray.py",
+   "sha256": "b2f566d26f6ed16319427596212e0a4f555568ae2dfd93baf5fd05c81f85ef00",
+   "size": 7134
+  }
+ ],
+ "unchanged": 9791,
+ "total_bytes": 382365,
+ "steps": [
+  {
+   "op": "replace",
+   "path": "app/web_app.py"
+  },
+  {
+   "op": "replace",
+   "path": "app/app.py"
+  },
+  {
+   "op": "replace",
+   "path": "app/echo_app/settings.py"
+  },
+  {
+   "op": "replace",
+   "path": "app/echo_app/autostart.py"
+  },
+  {
+   "op": "replace",
+   "path": "app/echo_app/appctl.py"
+  },
+  {
+   "op": "replace",
+   "path": "app/web_ui/index.html"
+  },
+  {
+   "op": "replace",
+   "path": "app/web_ui/app.js"
+  },
+  {
+   "op": "replace",
+   "path": "app/web_ui/style.css"
+  },
+  {
+   "op": "replace",
+   "path": "app/installer/version.inc"
+  },
+  {
+   "op": "delete",
+   "path": "app/echo_app/tray.py"
+  }
+ ],
+ "files": {
+  "app/web_app.py": {
+   "sha256": "44968538679862983ee47d7dfb09a1d0d2d43733435e8eafedcf3015ce2593f2",
+   "size": 134955
+  },
+  "app/app.py": {
+   "sha256": "3479b6bd60eb21d78121ad3a8c6a444e78b605ebc59cdf5ecfd66182bcc1d8b6",
+   "size": 75180
+  },
+  "app/echo_app/settings.py": {
+   "sha256": "5e2618c2c220a33036e43f66bcaf251b724e40ba0d8b963f808ecebe526c9615",
+   "size": 9287
+  },
+  "app/echo_app/autostart.py": {
+   "sha256": "90a704a4b5e0b4f88256ee1cf7a62a739f1dd56c0af1a4bb7ddf2a0f9af26009",
+   "size": 4163
+  },
+  "app/echo_app/appctl.py": {
+   "sha256": "9b6a3f56439f3c2cba77e54a8dbb8d94d4b5059624bc929cd02e084b00b37349",
+   "size": 11156
+  },
+  "app/web_ui/index.html": {
+   "sha256": "bbc4980b6afa5aab956908f69a937366e4217038f8128bf7f7e3a61271d0d5b3",
+   "size": 23876
+  },
+  "app/web_ui/app.js": {
+   "sha256": "367b68e41905dede7e87b6bcf49f074cb121ee60506ff73c439909fa2becbb27",
+   "size": 78136
+  },
+  "app/web_ui/style.css": {
+   "sha256": "22d3ed73fbd7a2b868662d785b00f48ae09de154c4afa0ddd8a3a990af0fdf30",
+   "size": 45231
+  },
+  "app/installer/version.inc": {
+   "sha256": "547ae935e66e580ae64505ded8954c286943a0b3106de3342254bd35c4aaaa22",
+   "size": 381
+  }
+ }
+}
