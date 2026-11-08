@@ -1,0 +1,52 @@
+{
+ "from_version": "0.6.55",
+ "to_version": "0.6.56",
+ "to_change": [
+  {
+   "path": "app/echo_scene/pipeline.py",
+   "sha256": "deab518521b63d09985bc48a6ed1de21af877bee20af904d00a5251b5fda8914",
+   "size": 55658
+  },
+  {
+   "path": "app/viewer.html",
+   "sha256": "840075ea5c02078a598c6f658341d8dbb3ffe568e736a058d1e550f3b8c78b75",
+   "size": 16342
+  },
+  {
+   "path": "app/installer/version.inc",
+   "sha256": "d3607d96929158ea6b88ecefa5bebd072031eaf93744de2d7abf78104219eda1",
+   "size": 381
+  }
+ ],
+ "to_delete": [],
+ "unchanged": 9798,
+ "total_bytes": 72381,
+ "steps": [
+  {
+   "op": "replace",
+   "path": "app/echo_scene/pipeline.py"
+  },
+  {
+   "op": "replace",
+   "path": "app/viewer.html"
+  },
+  {
+   "op": "replace",
+   "path": "app/installer/version.inc"
+  }
+ ],
+ "files": {
+  "app/echo_scene/pipeline.py": {
+   "sha256": "deab518521b63d09985bc48a6ed1de21af877bee20af904d00a5251b5fda8914",
+   "size": 55658
+  },
+  "app/viewer.html": {
+   "sha256": "840075ea5c02078a598c6f658341d8dbb3ffe568e736a058d1e550f3b8c78b75",
+   "size": 16342
+  },
+  "app/installer/version.inc": {
+   "sha256": "d3607d96929158ea6b88ecefa5bebd072031eaf93744de2d7abf78104219eda1",
+   "size": 381
+  }
+ }
+}
