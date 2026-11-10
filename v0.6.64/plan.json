@@ -1,0 +1,39 @@
+{
+ "from_version": "0.6.63",
+ "to_version": "0.6.64",
+ "to_change": [
+  {
+   "path": "app/echo_scene/fuse.py",
+   "sha256": "bd54707d23ade0e265df4adfa937d6732e4754727526f689b280fc0c2b731fca",
+   "size": 66679
+  },
+  {
+   "path": "app/installer/version.inc",
+   "sha256": "b21469e2b99fee2e907f215fdc0a4cd51449f9ccc3c3c62e001c4bb4a06633b5",
+   "size": 381
+  }
+ ],
+ "to_delete": [],
+ "unchanged": 9799,
+ "total_bytes": 67060,
+ "steps": [
+  {
+   "op": "replace",
+   "path": "app/echo_scene/fuse.py"
+  },
+  {
+   "op": "replace",
+   "path": "app/installer/version.inc"
+  }
+ ],
+ "files": {
+  "app/echo_scene/fuse.py": {
+   "sha256": "bd54707d23ade0e265df4adfa937d6732e4754727526f689b280fc0c2b731fca",
+   "size": 66679
+  },
+  "app/installer/version.inc": {
+   "sha256": "b21469e2b99fee2e907f215fdc0a4cd51449f9ccc3c3c62e001c4bb4a06633b5",
+   "size": 381
+  }
+ }
+}
