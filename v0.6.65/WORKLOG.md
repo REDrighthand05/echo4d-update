@@ -14,3 +14,8 @@
 - 没动：pipeline.py、depth_batch.py、voxels.py、voxel_export.py、web_app.py、depth_video.py（冻结）、updater/hotupdate、web_ui。前端未动。深度未动（18:40 轮次已量到顶）。
 - 待用户拍板：v0.6.48–v0.6.65 发布、最大化验证、采集器 v2.1.2 重测、走路视频；体素 GLB（voxel_model.glb）留不留；深度预览 PNG 删不留。
 - 量测里的自我纠正：第一遍微基准把数据生成算进计时里，第二遍改成数据预生成、只计时合并遍数学；第一遍峰值对比被预生成数据污染，补了逐点采样的 diag 才看清“掩码拷贝替掉原块”——候选原话的内存说法就此作废，改动的定性改成“少拷一半字节、快约 30%”。
+
+## 发布+安装（2026-11-11，用户说“发吧”后执行）
+
+- 中转站：已发布，commit a4ca147df3628216fe47dd3f6cdd107817a5958a，index.json latest 已进到本版。
+- 桌面：已安装，hotapply ok，version.inc 已进到本版，应用在 Session 1 重起确认（PID 19600），运行正常。

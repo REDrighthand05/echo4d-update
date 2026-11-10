@@ -16,3 +16,8 @@
 - 没动：pipeline.py、depth_batch.py、fuse.py、voxel_export.py（write_glb 原样复用）、web_app.py、depth_video.py（冻结）、updater/hotupdate、web_ui。前端未动。深度未动（已量到顶）。
 - 待用户拍板：v0.6.48–v0.6.67 发布、最大化验证、采集器 v2.1.2 重测、走路视频；体素 GLB（voxel_model.glb）留不留；深度预览 PNG 删不留。本包只让这个文件更便宜，不改变“留不留”的问题——如果不要，整段 GLB 工作可以整段省掉。
 - 量测里的自我纠正：比较脚本第一版把归一化后的颜色直接当 uint8 比，报最大差 204（脚本的毛病，不是文件的问题）；解析器第一版假设 GLB 一定有 BIN 块，open3d 的文件没有，补了 base64 分支才看清结构；638 帧全量验证第一版全量握持被 OOM 杀掉，改成分块 memmap 比对；本机 open3d 开局缺 libEGL.so.1（VM 重启后系统包丢了），.deb 直装 libegl1 + libegl-mesa0 修好，apt-get update 跑了 16 分钟无果且被 OOM 杀过一次，不走 apt。
+
+## 发布+安装（2026-11-11，用户说“发吧”后执行）
+
+- 中转站：已发布，commit c11ea32555dbce08f6f7e49537a7c7f0a3b204dc，index.json latest 已进到本版。
+- 桌面：已安装，hotapply ok，version.inc 已进到本版，应用在 Session 1 重起确认（PID 76872），运行正常。

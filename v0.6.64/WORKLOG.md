@@ -15,3 +15,8 @@
 - 没动：pipeline.py、depth_batch.py、voxels.py、voxel_export.py、web_app.py、depth_video.py（冻结）、updater/hotupdate、web_ui。前端未动。深度未动（18:40 轮次已量到顶）。
 - 待用户拍板：v0.6.48–v0.6.64 发布、最大化验证、采集器 v2.1.2 重测、走路视频；体素 GLB（voxel_model.glb）留不留；深度预览 PNG 删不留。
 - 量测里的自我纠正：第一遍 A/B 报 identical False，是量测脚本直接哈希了含任务目录路径的 job.json，忘了归一化路径；修脚本重跑三轮，identical True。第一遍的耗时数字仍有效，等价性以重跑为准。
+
+## 发布+安装（2026-11-11，用户说“发吧”后执行）
+
+- 中转站：已发布，commit cc1cba60e479c7819b95cc2c5be3c94f0ddbfc2c，index.json latest 已进到本版。
+- 桌面：已安装，hotapply ok，version.inc 已进到本版，应用在 Session 1 重起确认（PID 25820），运行正常。

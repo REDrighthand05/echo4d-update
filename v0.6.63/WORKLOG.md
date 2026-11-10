@@ -16,3 +16,8 @@
 - 没动：pipeline.py、depth_batch.py、fuse.py、voxel_export.py、web_app.py、depth_video.py（冻结）、updater/hotupdate、web_ui。前端未动。深度未动（18:40 轮次已量到顶）。
 - 待用户拍板：v0.6.48–v0.6.63 发布、最大化验证、采集器 v2.1.2 重测、走路视频；**新增：体素 GLB（voxel_model.glb）留不留**（每任务 ~12 秒 + 725 MB 磁盘 + 约 5 GB 峰值，换冻结模型唯一的 GLB 形态；导出按钮已有 25 MB 剔除版按需出）；深度预览 PNG 删不留（18:40 轮次，120 帧多花 14 秒）。
 - 量测里的自我纠正：第一遍分段里 638 帧 `tris.astype(int32)` 跑出 15.22 秒，是量测自己双握大数组 + 本机内存不足触发 swap 的假象，干净重跑里 build 总共 3.12 秒，15.22 秒作废。
+
+## 发布+安装（2026-11-11，用户说“发吧”后执行）
+
+- 中转站：已发布，commit b8c95042c8b00be0e3a08c84990a59f9fd93b30b，index.json latest 已进到本版。
+- 桌面：已安装，hotapply ok，version.inc 已进到本版，应用在 Session 1 重起确认（PID 40324），运行正常。

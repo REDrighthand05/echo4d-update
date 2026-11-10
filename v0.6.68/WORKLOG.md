@@ -15,3 +15,8 @@
 - 没动：voxels.py（0.6.67 体素段原样）、pipeline.py、depth_batch.py、fuse.py、web_app.py、depth_video.py（冻结）、updater/hotupdate、web_ui。前端未动。深度未动（已量到顶）。
 - 待用户拍板：v0.6.48–v0.6.68 发布、最大化验证、采集器 v2.1.2 重测、走路视频；体素 GLB（voxel_model.glb）留不留；深度预览 PNG 删不留。本包只让这个文件更便宜，不改变“留不留”的问题——如果不要，整段 GLB 工作可以整段省掉。
 - 量测里的自我纠正：导出 A/B 第一版直接哈希 info.json，报不一致——里面嵌着两边不同的任务目录路径，是量测自己的毛病（0.6.64 轮次记过同一条教训），归一化路径后重跑全相同；verify 第一版要求 diff 恰好一个 hunk——本改动在同一函数内三处分开，difflib 数出三个 hunk，改成“所有改动行都在 write_glb 内”的作用域断言；补丁第一版直接换 `"buffers"` 行——同一行在贴图与路线两个写码器里也出现，改成只在 write_glb 函数体内替换。
+
+## 发布+安装（2026-11-11，用户说“发吧”后执行）
+
+- 中转站：已发布，commit 8c54b657027b7b19a940531aeb3f1bfdb077d134，index.json latest 已进到本版。
+- 桌面：已安装，hotapply ok，version.inc 已进到本版，应用在 Session 1 重起确认（PID 51236），运行正常。

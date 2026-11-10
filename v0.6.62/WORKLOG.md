@@ -15,3 +15,8 @@
 - 验过：`tests/test_v62.py` 65/65（基底血统 + 补丁复现 + 参考实现未动 + `_read_int32_col` 往返 + 三轮量测等价性 + A/B 时序 + guard 实活 + 热更新模拟应用/中途回滚/中断回滚）；`verify_pack.py` 0 失败。包 508,899 B，sha256 `5e402021…2f54`。
 - 没动：pipeline.py、depth_batch.py、voxel_export.py、web_app.py、voxels.py（冻结）、depth_video.py（冻结）、updater/hotupdate、web_ui。前端未动。
 - 待用户拍板：v0.6.48–v0.6.62 发布、最大化验证、采集器 v2.1.2 重测、走路视频。
+
+## 发布+安装（2026-11-11，用户说“发吧”后执行）
+
+- 中转站：已发布，commit 9621373da3a3045d5e7ca2d07eefcb2ce475868d，index.json latest 已进到本版。
+- 桌面：已安装，hotapply ok，version.inc 已进到本版，应用在 Session 1 重起确认（PID 22288），运行正常。

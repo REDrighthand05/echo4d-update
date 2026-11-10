@@ -10,3 +10,8 @@
 - 验过：`tests/test_v60.py` 54/54（合并证明 + 配对行为 + stage_present 行为 + 热更新模拟应用/中途回滚/中断回滚）；`verify_pack.py` 44/44。包 507,505 B，sha256 `147ccf1e…9712ec`。
 - 没动：fuse.py、voxel_export.py、web_app.py、voxels.py（冻结）、depth_video.py（冻结）、depth_batch.py、updater/hotupdate、web_ui。前端未动。
 - 待用户拍板：v0.6.60 发布、最大化验证、采集器 v2.1.2 重测、走路视频。仍等 rebase：v0.6.50（链 0.6.60 → 0.6.61）。
+
+## 发布+安装（2026-11-11，用户说“发吧”后执行）
+
+- 中转站：已发布，commit 6db60f3bf88593012fe733311af7ca41f359d851，index.json latest 已进到本版。
+- 桌面：已安装，hotapply ok，version.inc 已进到本版，应用在 Session 1 重起确认（PID 46960），运行正常。
