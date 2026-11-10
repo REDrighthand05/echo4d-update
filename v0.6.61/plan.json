@@ -1,0 +1,52 @@
+{
+ "from_version": "0.6.60",
+ "to_version": "0.6.61",
+ "to_change": [
+  {
+   "path": "app/echo_scene/depth_batch.py",
+   "sha256": "e6f2223dbea68013820c1dba30382aa8d94f1e8f314cd0d8aaceba183c6dba72",
+   "size": 8995
+  },
+  {
+   "path": "app/echo_scene/pipeline.py",
+   "sha256": "29fa92fbd8cf0e35e09cc0395a33c6faed7982cda188ba4b7d08956c02fab26d",
+   "size": 58355
+  },
+  {
+   "path": "app/installer/version.inc",
+   "sha256": "ab092089f6965be05c5c6093790df516f9031b86997af5aad8636af768d49cad",
+   "size": 381
+  }
+ ],
+ "to_delete": [],
+ "unchanged": 9798,
+ "total_bytes": 67731,
+ "steps": [
+  {
+   "op": "replace",
+   "path": "app/echo_scene/depth_batch.py"
+  },
+  {
+   "op": "replace",
+   "path": "app/echo_scene/pipeline.py"
+  },
+  {
+   "op": "replace",
+   "path": "app/installer/version.inc"
+  }
+ ],
+ "files": {
+  "app/echo_scene/depth_batch.py": {
+   "sha256": "e6f2223dbea68013820c1dba30382aa8d94f1e8f314cd0d8aaceba183c6dba72",
+   "size": 8995
+  },
+  "app/echo_scene/pipeline.py": {
+   "sha256": "29fa92fbd8cf0e35e09cc0395a33c6faed7982cda188ba4b7d08956c02fab26d",
+   "size": 58355
+  },
+  "app/installer/version.inc": {
+   "sha256": "ab092089f6965be05c5c6093790df516f9031b86997af5aad8636af768d49cad",
+   "size": 381
+  }
+ }
+}
