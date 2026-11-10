@@ -1,0 +1,39 @@
+{
+ "from_version": "0.6.67",
+ "to_version": "0.6.68",
+ "to_change": [
+  {
+   "path": "app/echo_scene/voxel_export.py",
+   "sha256": "4738e6787f352f4dff039813678f6cf08b7a6f2da7e6bba35b3562b99da54b8d",
+   "size": 78247
+  },
+  {
+   "path": "app/installer/version.inc",
+   "sha256": "08cc9691b7fa7fa2307f10c62403883e526e7c37f5b73d2c167f22178f269465",
+   "size": 381
+  }
+ ],
+ "to_delete": [],
+ "unchanged": 9799,
+ "total_bytes": 78628,
+ "steps": [
+  {
+   "op": "replace",
+   "path": "app/echo_scene/voxel_export.py"
+  },
+  {
+   "op": "replace",
+   "path": "app/installer/version.inc"
+  }
+ ],
+ "files": {
+  "app/echo_scene/voxel_export.py": {
+   "sha256": "4738e6787f352f4dff039813678f6cf08b7a6f2da7e6bba35b3562b99da54b8d",
+   "size": 78247
+  },
+  "app/installer/version.inc": {
+   "sha256": "08cc9691b7fa7fa2307f10c62403883e526e7c37f5b73d2c167f22178f269465",
+   "size": 381
+  }
+ }
+}
